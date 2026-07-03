@@ -1,0 +1,139 @@
+ .navbar {
+      background-color: #1e293b;
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: white !important;
+    }
+
+    .nav-link:hover {
+      color: #facc15 !important;
+    }
+
+    .navbar-brand:hover {
+      color: white !important;
+    }
+    .infastructure_tcolor{
+      color:#1A2B4C;
+      font-family: initial;
+      font-size: 50px;
+      
+    }
+    .P_tcolor{
+      color:#555555;
+    }
+    .btn{
+      background-color: #0084C2;
+      margin-top: 20px;
+    }
+   .second_sec{
+    background-color: #F4F6F9;
+   }
+   .school{
+    font-size:35px ;
+    font-weight: 900;
+    
+   }
+   .school_tree{
+    font-size: 20px;
+   }
+   .tree_sec{
+    background-color:#FFFFFF ;
+   }
+   .container_i {
+  display: flex;
+  justify-content: center;
+}
+.f_family{
+   font-family: initial;
+   /* font-weight: 900; */
+
+}
+.Ad_open{
+  color:#1e293b;
+}
+.p_sec{
+  color:#0084C2;
+}
+.card:hover{
+  background-color: #1e293b;
+  color:white;
+}
+.parents_section {
+    background-color: #eef2f7; 
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.leader-img-container {
+    width: 100%;
+    max-width: 300px;  
+    height: 300px;     
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.leader-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+    object-position: center;  
+}
+
+/* Inquiry Section Custom Styling */
+.inquiry-sec {
+    background-color: #f4f7f6 !important; /* Soft premium backdrop */
+}
+
+.inquiry-sec .card {
+    border-radius: 16px !important;
+}
+
+.inquiry-sec .form-control, 
+.inquiry-sec .form-select {
+    padding: 10px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.inquiry-sec .form-control:focus, 
+.inquiry-sec .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.inquiry-sec .btn-primary {
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #0d6efd;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.inquiry-sec .btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-1px);
+}
+
+
+footer p, 
+footer li, 
+footer a, 
+footer span {
+    color: rgba(255, 255, 255, 0.7) !important; 
+}
+
+footer h5 {
+    color: #ffffff !important; 
+}
+
+.footer-links a:hover {
+    color: #0d6efd !important; 
+    text-decoration: underline !important;
+}
+
+footer .text-danger {
+    color: #dc3545 !important;
+}

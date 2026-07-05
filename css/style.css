@@ -1,5 +1,6 @@
  .navbar {
       background-color: #1e293b;
+      z-index:10;
     }
 
     .navbar-brand,
@@ -136,4 +137,147 @@ footer h5 {
 
 footer .text-danger {
     color: #dc3545 !important;
+}
+
+/* About Page  */
+/* आपके नेविगेशन बार का क्लास या आईडी */
+nav .navbar {
+    position: relative; /* या fixed / sticky जो भी आपकी डिज़ाइन में हो */
+    z-index: 100;       /* इसे वीडियो से ज़्यादा नंबर दें */
+}
+.herovideo{
+    position: relative;
+    z-index: 1;         /* इसे कम नंबर दें ताकि यह पीछे रहे */
+}
+
+/* मेन कंटेनर */
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 80vh; 
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* video style */
+#heroVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1;
+}
+
+
+.video-overlay {
+    position: relative;
+    z-index: 2; 
+    text-align: center;
+    color: #ffffff; 
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4); 
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+/* Font or design setting */
+.video-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.video-overlay h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.admission-badge {
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.admission-badge h3 {
+    font-size: 1.8rem;
+    color: #ffcc00; 
+    margin: 0;
+    border: none;
+}
+
+.cambridge-text {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #E6B800;
+}
+
+.sname_color{
+  color: #FFCC00;
+}
+.s_title_info{
+  color: #1A2B4C;
+  font-family: initial;
+  font-size: 30px;
+  font-weight: 900;
+}
+.s_info{
+  color: #555555;
+  font-family: initial;
+  font-size: 18px;
+}
+.three_section{
+  color:#555555
+}
+.parent-div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Leadership Circle Photo Design */
+.leader-circle-box {
+    width: 250px;           /* Frame ki चौड़ाई */
+    height: 250px;          /* Frame ki ऊंचाई */
+    border-radius: 50%;     /* Photo ko perfect gol banata hai */
+    overflow: hidden;       /* Corners ko crop karta hai */
+    background-color: #e9ecef; /* Image load hone tak light background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft border shadow */
+}
+
+.leader-circle-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* Photo ko bina chipta kiye fit karega */
+    object-position: top center; /* Face ko balance rakhega */
+}
+
+/* Read More Link Styling */
+.row text-center a {
+    color: #0d6efd;
+    transition: color 0.2s ease;
+}
+
+.row text-center a:hover {
+    color: #0a58ca;
+    text-decoration: underline !important;
+}
+
+.teacher_model{
+    color:#1e293b;
+    font-family:initial;
+    font-weight:900;
+
+}
+model_text{
+    color: #1e293b;
+    font-family:initial;
 }

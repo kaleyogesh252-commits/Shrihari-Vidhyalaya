@@ -140,14 +140,14 @@ footer .text-danger {
 }
 
 /* About Page  */
-/* आपके नेविगेशन बार का क्लास या आईडी */
+
 nav .navbar {
-    position: relative; /* या fixed / sticky जो भी आपकी डिज़ाइन में हो */
-    z-index: 100;       /* इसे वीडियो से ज़्यादा नंबर दें */
+    position: relative; 
+    z-index: 100;      
 }
 .herovideo{
     position: relative;
-    z-index: 1;         /* इसे कम नंबर दें ताकि यह पीछे रहे */
+    z-index: 1;        
 }
 
 /* मेन कंटेनर */
@@ -242,22 +242,22 @@ nav .navbar {
 
 /* Leadership Circle Photo Design */
 .leader-circle-box {
-    width: 250px;           /* Frame ki चौड़ाई */
-    height: 250px;          /* Frame ki ऊंचाई */
-    border-radius: 50%;     /* Photo ko perfect gol banata hai */
-    overflow: hidden;       /* Corners ko crop karta hai */
-    background-color: #e9ecef; /* Image load hone tak light background */
+    width: 250px;           
+    height: 250px;          
+    border-radius: 50%;     
+    overflow: hidden;       
+    background-color: #e9ecef;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Soft border shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
 }
 
 .leader-circle-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover;      /* Photo ko bina chipta kiye fit karega */
-    object-position: top center; /* Face ko balance rakhega */
+    object-fit: cover;    
+    object-position: top center; 
 }
 
 /* Read More Link Styling */
@@ -277,7 +277,7 @@ nav .navbar {
     font-weight:900;
 
 }
-model_text{
+.model_text{
     color: #1e293b;
     font-family:initial;
 }
@@ -369,7 +369,67 @@ textarea.form-control{
 }
 /* Map Section */
 .contact-section {
-    background-color: #f3ece4; /* Logo ka inner warm cream color */
+    background-color: #f3ece4; 
     padding: 60px 0;
 }
+/* Addmision Page */
 
+.img_building{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.school-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 8px solid #2196F3;
+    box-shadow: 0 0 20px rgba(33,150,243,0.4);
+
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* Section 1 */
+.admission-section-one{
+    background: #F4F9FF;
+    padding: 80px 0;
+}
+
+/* Section 2 */
+.admission-section-two{
+    background: #FFFFFF;
+    padding: 80px 0;
+}
+
+/* Section 3 */
+.admission-section-three{
+    background: #FFF8EA;
+    padding: 80px 0;
+}
+
+/* Section 4 */
+.admission-section-four{
+    background: #E8F5E9;   
+    padding: 80px 0;
+}
+
+/* Section 5 */
+.admission-section-five{
+    background: #E3F2FD;   
+    padding: 80px 0;
+}

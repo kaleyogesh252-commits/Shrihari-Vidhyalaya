@@ -1,6 +1,6 @@
  .navbar {
       background-color: #1e293b;
-      z-index:10;
+     
     }
 
     .navbar-brand,
@@ -281,3 +281,95 @@ model_text{
     color: #1e293b;
     font-family:initial;
 }
+
+
+/* Contact Section */
+
+.contact-section {
+    background-color: #f3ece4; 
+    padding: 60px 0;
+}
+
+.contact-form{
+    padding-right: 40px;
+}
+
+.contact-details{
+    padding-left: 40px;
+}
+
+.contact-details h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.contact-details p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.contact-details .icon-box{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.contact-details .icon-box i{
+    color: #f39c12;
+    font-size: 24px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.form-control,
+.form-select{
+    height: 58px;
+    border-radius: 5px;
+}
+
+textarea.form-control{
+    height: 200px;
+    resize: none;
+}
+
+.btn-submit{
+    background: #0a58ca;
+    color:white;
+    padding: 12px 40px;
+    border:10px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.btn-submit:hover{
+    background: #1e293b;
+    color:white;
+}
+
+@media (max-width:991px){
+
+    .contact-form{
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .contact-details{
+        padding-left: 0;
+    }
+
+    .contact-details h1{
+        font-size: 36px;
+    }
+
+}
+/* Map Section */
+.contact-section {
+    background-color: #f3ece4; /* Logo ka inner warm cream color */
+    padding: 60px 0;
+}
+
